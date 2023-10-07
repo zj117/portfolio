@@ -1,0 +1,61 @@
+/*
+Student Name: Zipporah Johnson
+Date: 09/24/2023
+File Name: styles.css
+*/
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+/*Header Style Rule*/
+header{
+  text-align: center;
+  background-color: white;
+  color: black;
+  line-height: 1;
+}
+/*Nav Style Rule*/
+nav{
+  background-color: #FF347F;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a{
+  text-decoration: none;
+}
+/*Main Style Rule*/
+main{
+  padding: 2%;
+}
+main a{
+  text-decoration: ;
+}
+/*Footer Style Rule*/
+footer{
+  text-align: center;
+}
+#box{
+  background-color: #FF347F;
+  border: solid 10px #FF347F;
+  border-radius: 8px;
+}
+.border{
+  line-height: 1.3;
+}
